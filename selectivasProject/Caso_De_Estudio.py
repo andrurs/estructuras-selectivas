@@ -22,7 +22,7 @@ def calcular_precio(tipo_hamburguesa, medio_pago, cantidad):
     # Calcular el total sin cargos
     total_sin_cargo = precio*cantidad
 
-# Aplicar impuesto si el medio de pago es tarjeta
+    # Aplicar impuesto si el medio de pago es tarjeta
     if medio_pago ==1:
         impuesto = round(total_sin_cargo*IMPUESTO_TARJETA)
     else:
